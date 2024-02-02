@@ -1,0 +1,314 @@
+{
+  "brikId": "",
+  "brikName": "",
+  "editorId": "",
+  "version": "*",
+  "editable": true,
+  "style": {
+    "font": {
+      "family": "",
+      "size": "",
+      "style": "",
+      "color": "",
+      "weight": ""
+    },
+    "backgroundColor": "",
+    "color": ""
+  },
+  "data": [
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageOne",
+        "for": "",
+        "link": "https://cdn.pixabay.com/photo/2023/12/28/19/14/boy-8474750_640.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageTwo",
+        "for": "",
+        "link": "https://cdn.pixabay.com/photo/2024/01/18/00/36/boat-8515980_640.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageThree",
+        "for": "background",
+        "link": "https://cdn.pixabay.com/photo/2024/01/19/13/27/fog-8519076_640.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "2 ABOUT OUR PLOMING",
+        "label": "",
+        "type": "textOne",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "18",
+          "style": "",
+          "color": "red",
+          "weight": "500"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Who We Are And What We Stand For",
+        "label": "",
+        "type": "title",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "h1",
+          "style": "",
+          "color": "black",
+          "weight": "900"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Our team proudly offers an on-time guarantee and a 100% customer satisfactio guarantee. It's why we make sure that our licensed plumbers are highly trained and fully equipped to meet your home's diverse plumbing service needs.",
+        "label": "",
+        "type": "textTwo",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "100",
+        "label": "Years experience",
+        "type": "textThree",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "1.0M",
+        "label": "happy customers",
+        "type": "textFour",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "125K",
+        "label": "Project completed",
+        "type": "textFive",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageFour",
+        "for": "avatar",
+        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageFive",
+        "for": "avatar",
+        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": "500"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageSix",
+        "for": "avatar",
+        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": "500"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },{
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "imageSeven",
+        "for": "avatar",
+        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Our Satisfied Client Ratings",
+        "label": "",
+        "type": "textSix",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": "500"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    }
+
+  ]
+}
