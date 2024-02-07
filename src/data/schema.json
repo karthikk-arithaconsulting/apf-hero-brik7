@@ -19,10 +19,11 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageOne",
+        "label": "image-b",
+        "type": "img",
         "for": "",
-        "link": "https://cdn.pixabay.com/photo/2023/12/28/19/14/boy-8474750_640.jpg"
+        "src":"https://cdn.pixabay.com/photo/2023/12/28/19/14/boy-8474750_640.jpg",
+        "link": ""
       },
       "style": {
         "font": {
@@ -40,10 +41,11 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageTwo",
+        "label": "image-a",
+        "type": "img",
         "for": "",
-        "link": "https://cdn.pixabay.com/photo/2024/01/18/00/36/boat-8515980_640.jpg"
+        "src":"https://cdn.pixabay.com/photo/2024/01/18/00/36/boat-8515980_640.jpg",
+        "link": ""
       },
       "style": {
         "font": {
@@ -61,10 +63,33 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageThree",
+        "label": "image-c",
+        "type": "img",
+        "for": "image-c",
+        "src":"https://cdn.pixabay.com/photo/2024/01/19/13/27/fog-8519076_640.jpg",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "background image",
+        "type": "img",
         "for": "background",
-        "link": "https://cdn.pixabay.com/photo/2024/01/19/13/27/fog-8519076_640.jpg"
+        "src":"https://cdn.pixabay.com/photo/2019/03/23/21/36/geometric-4076402_640.png",
+        "link": ""
       },
       "style": {
         "font": {
@@ -82,9 +107,9 @@
     {
       "content": {
         "value": "2 ABOUT OUR PLOMING",
-        "label": "",
-        "type": "textOne",
-        "for": "",
+        "label": "sub text",
+        "type": "subtext",
+        "for": "subText",
         "link": ""
       },
       "style": {
@@ -103,9 +128,9 @@
     {
       "content": {
         "value": "Who We Are And What We Stand For",
-        "label": "",
+        "label": "Main Title",
         "type": "title",
-        "for": "",
+        "for": "mainTitle",
         "link": ""
       },
       "style": {
@@ -124,9 +149,9 @@
     {
       "content": {
         "value": "Our team proudly offers an on-time guarantee and a 100% customer satisfactio guarantee. It's why we make sure that our licensed plumbers are highly trained and fully equipped to meet your home's diverse plumbing service needs.",
-        "label": "",
-        "type": "textTwo",
-        "for": "",
+        "label": "Main Text",
+        "type": "text",
+        "for": "mainText",
         "link": ""
       },
       "style": {
@@ -144,9 +169,9 @@
     },
     {
       "content": {
-        "value": "100",
-        "label": "Years experience",
-        "type": "textThree",
+        "value": "Years experience",
+        "label": "text-a",
+        "type": "text",
         "for": "",
         "link": ""
       },
@@ -165,9 +190,72 @@
     },
     {
       "content": {
-        "value": "1.0M",
-        "label": "happy customers",
-        "type": "textFour",
+        "value": "23",
+        "label": "sub text-a",
+        "type": "text",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "45",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "happy customers",
+        "label": "text-b",
+        "type": "text",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "14",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "123",
+        "label": "sub text-b",
+        "type": "text",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "45",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Project completed",
+        "label": "text-c",
+        "type": "text",
         "for": "",
         "link": ""
       },
@@ -187,9 +275,31 @@
     {
       "content": {
         "value": "125K",
-        "label": "Project completed",
-        "type": "textFive",
+        "label": "sub text-c",
+        "type": "text",
         "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "45",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "avatar-a",
+        "type": "img",
+        "for": "avatar-a",
+        "src":"https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png",
         "link": ""
       },
       "style": {
@@ -208,15 +318,16 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageFour",
-        "for": "avatar",
-        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+        "label": "avatar-b",
+        "type": "img",
+        "for": "avatar-b",
+        "src":"https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png",
+        "link": ""
       },
       "style": {
         "font": {
           "family": "",
-          "size": "14",
+          "size": "",
           "style": "",
           "color": "",
           "weight": ""
@@ -229,39 +340,19 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageFive",
-        "for": "avatar",
-        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+        "label": "avatar-c",
+        "type": "img",
+        "for": "avatar-c",
+        "src":"https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png",
+        "link": ""
       },
       "style": {
         "font": {
           "family": "",
-          "size": "14",
+          "size": "",
           "style": "",
           "color": "",
-          "weight": "500"
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "",
-        "type": "imageSix",
-        "for": "avatar",
-        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "14",
-          "style": "",
-          "color": "",
-          "weight": "500"
+          "weight": ""
         },
         "backgroundColor": ""
       },
@@ -270,15 +361,16 @@
     },{
       "content": {
         "value": "",
-        "label": "",
-        "type": "imageSeven",
-        "for": "avatar",
-        "link": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png"
+        "label": "avatar-d",
+        "type": "img",
+        "for": "avatar-d",
+        "src":"https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_640.png",
+        "link": ""
       },
       "style": {
         "font": {
           "family": "",
-          "size": "14",
+          "size": "",
           "style": "",
           "color": "",
           "weight": ""
@@ -291,8 +383,8 @@
     {
       "content": {
         "value": "Our Satisfied Client Ratings",
-        "label": "",
-        "type": "textSix",
+        "label": "text-d",
+        "type": "text",
         "for": "",
         "link": ""
       },

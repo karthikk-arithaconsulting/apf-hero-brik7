@@ -3,32 +3,39 @@ import {Title,Text} from "@apf/core";
 import React from "react";
 import "./HeroBrikSeven.css";
 import "@apf/core/dist/style.css";
-import { FaStar } from 'react-icons/fa';
+import { FaStar } from "react-icons/fa";
 
 
 
 function HeroBrikSeven(props){
-    const imageOneObject = props.data.data.find(item => item.content.type === "imageOne");
-    const imageTwoObject = props.data.data.find(item => item.content.type === "imageTwo");
-    const imageThreeObject = props.data.data.find(item => item.content.type === "imageThree" && item.content.for === "background");
-    const titleObject = props.data.data.find(item => item.content.type === "title");
-    const textOneObject = props.data.data.find(item => item.content.type === "textOne");
-    const textTwoObject = props.data.data.find(item => item.content.type === "textTwo");
-    const textThreeObject = props.data.data.find(item => item.content.type === "textThree");
-    const textFourObject = props.data.data.find(item => item.content.type === "textFour");
-    const textFiveObject = props.data.data.find(item => item.content.type === "textFive");
-    const imageFourObject = props.data.data.find(item => item.content.type === "imageFour" && item.content.for === "avatar");
-    const imageFiveObject = props.data.data.find(item => item.content.type === "imageFive" && item.content.for === "avatar");
-    const imageSixObject = props.data.data.find(item => item.content.type === "imageSix" && item.content.for === "avatar");
-    const imageSevenObject = props.data.data.find(item => item.content.type === "imageSeven" && item.content.for === "avatar");
-    const textSixObject = props.data.data.find(item => item.content.type === "textSix");
+    const imageOneObject = props.data.data.find(item => item?.content?.type === "img" && item?.content?.label === "image-b");
+    const imageTwoObject = props.data.data.find(item => item?.content?.type === "img" && item?.content?.label === "image-a");
+    const imageThreeObject = props.data.data.find(item => item?.content?.type === "img" && item?.content?.for === "image-c");
+    const imageBackground = props.data.data.find(item => item?.content?.type === "img" && item?.content?.label === "background image");
+    const titleObject = props.data.data.find(item => item?.content?.type === "title" && item?.content?.for === "mainTitle");
+    const textOneObject = props.data.data.find(item => item?.content?.type === "subtext" && item?.content?.for === "subText");
+    const textTwoObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.for === "mainText");
+    const textThreeObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "text-a");
+    const textAObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "sub text-a");
+    const textFourObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "text-b");
+    const textBObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "sub text-b");
+    const textFiveObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "text-c");
+    const textCObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "sub text-c");
+    const imageFourObject = props.data.data.find(item => item.content.type === "img" && item.content.for === "avatar-a");
+    const imageFiveObject = props.data.data.find(item => item.content.type === "img" && item.content.for === "avatar-b");
+    const imageSixObject = props.data.data.find(item => item.content.type === "img" && item.content.for === "avatar-c");
+    const imageSevenObject = props.data.data.find(item => item.content.type === "img" && item.content.for === "avatar-d");
+    const textSixObject = props.data.data.find(item => item?.content?.type === "text" && item?.content?.label === "text-d");
     return(
         <div className="Hero-container">
-            <div className="Hero-image-container">
-                <img src={imageOneObject.content.link} alt="image-one" className="imageOne-Tag"></img>
-                <img src={imageTwoObject.content.link} alt="image-two" className="imageTwo-Tag"></img>
-                <img src={imageThreeObject.content.link} alt="baground-img" className="imageThree-Tag"></img>
-                <div className="imageborder"></div>
+            <div className="background">
+                <img src={imageBackground?.content?.src} className="backgroundChild"></img>
+            </div>
+                <div className="Hero-image-container">
+                <img src={imageOneObject?.content?.src} alt="image-one" className="imageOne-Tag"></img>
+                <img src={imageTwoObject?.content?.src} alt="image-two" className="imageTwo-Tag"></img>
+                <img src={imageThreeObject?.content?.src} alt="background-img" className="imageThree-Tag"></img>
+                <div style={{border:`2px solid orange`}} className="imageborder"></div>
             </div>
             <div className="Hero-content-container">
                 <div className="Hero-GroupOne-contentTags-container">
@@ -38,24 +45,24 @@ function HeroBrikSeven(props){
                 </div>  
                 <div className="Hero-GroupTwo-contentTags-container">
                     <div className="Hero-GroupTwo-contentOne-container">
-                        <Text className="GroupTwo-contentOne-value">{textThreeObject.content.value}</Text>
-                        <Text c={textThreeObject.style.font.color} fz={textThreeObject.style.font.size} style={{ fontFamily: textThreeObject.style.font.family }} fs={textThreeObject.style.font.style} fw={textThreeObject.style.font.weight} className="GroupTwo-contentOne-label">{textThreeObject.content.label}</Text>
+                        <Text c={textAObject.style.font.color} fz={textAObject.style.font.size} style={{ fontFamily: textAObject.style.font.family }} fs={textAObject.style.font.style} fw={textAObject.style.font.weight} className="GroupTwo-contentOne-value">{textAObject?.content?.value}</Text>
+                        <Text c={textThreeObject.style.font.color} fz={textThreeObject?.style?.font?.size} style={{ fontFamily: textThreeObject.style.font.family }} fs={textThreeObject.style.font.style} fw={textThreeObject.style.font.weight} className="GroupTwo-contentOne-label">{textThreeObject?.content?.value}</Text>
                     </div>
                     <div className="Hero-GroupTwo-contentTwo-container">
-                        <Text className="GroupTwo-contentTwo-value">{textFourObject.content.value}</Text>
-                        <Text c={textFourObject.style.font.color} fz={textFourObject.style.font.size} style={{ fontFamily: textFourObject.style.font.family }} fs={textFourObject.style.font.style} fw={textFourObject.style.font.weight} className="GroupTwo-contentTwo-label">{textFourObject.content.label}</Text>
+                        <Text c={textBObject.style.font.color} fz={textBObject.style.font.size} style={{ fontFamily: textBObject.style.font.family }} fs={textBObject.style.font.style} fw={textBObject.style.font.weight} className="GroupTwo-contentTwo-value">{textBObject.content.value}</Text>
+                        <Text c={textFourObject.style.font.color} fz={textFourObject.style.font.size} style={{ fontFamily: textFourObject.style.font.family }} fs={textFourObject.style.font.style} fw={textFourObject.style.font.weight} className="GroupTwo-contentTwo-label">{textFourObject.content.value}</Text>
                     </div>
                     <div className="Hero-GroupTwo-contentThree-container">
-                        <Text className="GroupTwo-contentThree-value">{textFiveObject.content.value}</Text>
-                        <Text className="GroupTwo-contentThree-label">{textFiveObject.content.label}</Text>
+                        <Text c={textCObject.style.font.color} fz={textCObject.style.font.size} style={{ fontFamily: textCObject.style.font.family }} fs={textCObject.style.font.style} fw={textCObject.style.font.weight}  className="GroupTwo-contentThree-value">{textCObject.content.value}</Text>
+                        <Text c={textFiveObject.style.font.color} fz={textFiveObject.style.font.size} style={{ fontFamily: textFiveObject.style.font.family }} fs={textFiveObject.style.font.style} fw={textFiveObject.style.font.weight} className="GroupTwo-contentThree-label">{textFiveObject.content.value}</Text>
                     </div>
                 </div> 
                 <div className="Hero-GroupThree-contentTags-container">
                     <div className="GroupThree-contentOne-container">
-                        <img src={imageFourObject.content.link} className="GroupThree-imgOne"></img>
-                        <img src={imageFiveObject.content.link} className="GroupThree-imgTwo"></img>
-                        <img src={imageSixObject.content.link} className="GroupThree-imgThree"></img>
-                        <img src={imageSevenObject.content.link} className="GroupThree-imgFour"></img>
+                        <img src={imageFourObject.content.src} className="GroupThree-imgOne"></img>
+                        <img src={imageFiveObject.content.src} className="GroupThree-imgTwo"></img>
+                        <img src={imageSixObject.content.src} className="GroupThree-imgThree"></img>
+                        <img src={imageSevenObject.content.src} className="GroupThree-imgFour"></img>
                     </div>
 
                     <div className="GroupThree-contentTwo-container">
